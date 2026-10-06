@@ -1,0 +1,71 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+text-align:left; 
+
+    background-image: url('https://cdn.prod.website-files.com/61250a90c9c80c02057e9839/690d2e637be04b05e990cb5f_academia.jpg');
+ 
+  background-repeat: no-repeat;  /* Impede a repetição da imagem */
+  background-size: cover;        /* Ajusta a imagem para cobrir toda a área */
+  background-position: center;   /* Centraliza a imagem no ecrã */
+  background-attachment: fixed;  /* Mantém a imagem fixa ao fazer scroll (opcional) */
+
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+  min-height: 100vh;       /* Ocupa a altura total da janela */
+  margin: 0;               /* Remove margens padrão */
+}
+
+form{
+background-image: linear-gradient(10deg,#3472b1, rgb(195, 195, 196));
+padding: 20px;
+border-radius: 20px;
+display: flex;
+  flex-direction: column; /* Coloca cada item um abaixo do outro */
+  width: 100%;
+  max-width: 400px;        /* Tamanho padrão para não esticar demais */
+  margin: 0 auto;          /* Centraliza o formulário */
+}
+
+label{
+display: block;
+margin-top: 15px;
+
+}
+input[type = "text"],
+input[type = "number"]{
+    width: 90%;
+    padding: 10px;
+    margin-top: 6px;
+    border: none;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(63, 133, 224);
+    color: rgb(12, 12, 12);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+button:hover{
+    background-color: rgb(233, 212, 227);
+}
+
+
+input, select {
+  width: 90%;             /* Faz com que ambos ocupem a largura total do contentor */
+  box-sizing: border-box;  /* Garante que o padding não altere a largura total */
+  padding: 10px 12px;      /* Espaçamento interno idêntico */
+  font-size: 1rem;         /* Tamanho da letra igual */
+  border-radius: 4px;      /* Arredondamento dos cantos */
+  border: 1px solid #ccc;  /* Contorno padronizado */
+
+  box-sizing: border-box;  /* Evita que ultrapassem o tamanho do cartão */
+  margin-bottom: 12px;     /* Espaço padrão entre cada campo */
+}
